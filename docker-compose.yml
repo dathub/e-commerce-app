@@ -37,7 +37,7 @@ services:
     volumes:
       - mongo:/data
     environment:
-      MONGO_INITDB_ROOT_USERNAME: mdguser
+      MONGO_INITDB_ROOT_USERNAME: mdbuser
       MONGO_INITDB_ROOT_PASSWORD: mdbuser
 
   mongo-express:
